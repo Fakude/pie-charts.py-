@@ -27,3 +27,9 @@ python -m unittest discover -s tests -v
 ```
 
 The example values are illustrative and should be replaced with documented source data for a real report.
+
+## Continuous integration
+
+[![Python CI](https://github.com/Fakude/pie-charts.py-/actions/workflows/ci.yml/badge.svg)](https://github.com/Fakude/pie-charts.py-/actions/workflows/ci.yml)
+
+The workflow installs requirements and executes the unit tests on Python 3.12 for each push and pull request. See `.github/workflows/ci.yml`.
